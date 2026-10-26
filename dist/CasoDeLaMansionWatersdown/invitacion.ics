@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:watersdown-20260116T200000@murder.party
-DTSTAMP:20261026T192509Z
+DTSTAMP:20261026T194847Z
 DTSTART:20260116T200000
 DTEND:20260117T000000
 SUMMARY:El Caso de la Mansión Watersdown — Murder Party
-DESCRIPTION:El Caso de la Mansion Watersdown — una murder party de misterio.\nAnfitriona: [NOMBRE ANFITRIONA]\nCodigo de vestimenta: Etiqueta de época, años 30\nConfirmacion: [número de WhatsApp]
-LOCATION:[DIRECCIÓN]
+DESCRIPTION:El Caso de la Mansion Watersdown — una murder party de misterio.\nAnfitriona: Marina y Soff\nCodigo de vestimenta: Etiqueta de época, años 30\nConfirmacion: [número de WhatsApp]
+LOCATION:Travau 40
 END:VEVENT
 END:VCALENDAR

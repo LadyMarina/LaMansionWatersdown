@@ -137,6 +137,7 @@ h1,h2,h3{font-family:var(--serif-titulo); font-weight:700; letter-spacing:.5px; 
 .invite .corner.br{bottom:22px; right:22px; border-left:0; border-top:0}
 .invite .host{font-family:var(--serif-titulo); font-size:1.5rem; margin:.1rem 0 .2rem}
 .invite .lead{font-family:var(--serif-sub); font-size:1.08rem; color:#4a3a22}
+.invite .byhost{font-family:var(--serif-sub); font-style:italic; font-size:1.02rem; margin:.15rem 0 .1rem; color:#4a3a22}
 .invite .manor{font-family:var(--serif-titulo); font-size:1.9rem; margin:.35rem 0 .1rem; color:#5a3a14}
 .invite .region{font-family:var(--serif-sub); letter-spacing:.35em; text-transform:uppercase; font-size:.8rem; color:#6a4a22}
 .invite .when{margin-top:.5rem; font-style:italic}
@@ -327,31 +328,14 @@ function invitationCard(p) {
   <article class="invite">
     <span class="corner tl"></span><span class="corner tr"></span>
     <span class="corner bl"></span><span class="corner br"></span>
-    <div class="host">${esc(i.anfitrion)}</div>
+    <div class="host">${esc(p.nombre)} ${esc(p.apodo)}</div>
     <div class="lead">${esc(i.introFiccion)}</div>
     <div class="manor">${esc(i.lugar)}</div>
+    <div class="byhost">de la mano de ${esc(i.anfitrion)}</div>
     <div class="region">${esc(i.region)}</div>
     <div class="when">${esc(i.fechaFiccion)}</div>
     <div class="wax" aria-hidden="true">RW</div>
   </article>
-</section>`;
-}
-
-// ── Detalles prácticos (datos reales de la fiesta) + calendario ────────────
-function practical() {
-  const i = textos.invitacion;
-  return `<section class="panel">
-  <p class="section-eyebrow" style="text-align:center">${esc(i.realIntro)} ${esc(config.anfitriona)}</p>
-  <div class="practical">
-    <div class="item"><div class="k">Fecha</div><div class="v">${esc(config.fechaDisplay)}</div></div>
-    <div class="item"><div class="k">Hora</div><div class="v">${esc(config.horaDisplay)}</div></div>
-    <div class="item"><div class="k">Dirección</div><div class="v">${esc(config.direccion)}</div></div>
-    <div class="item"><div class="k">Código de vestimenta</div><div class="v">${esc(config.codigoVestimenta)}</div></div>
-    <div class="item"><div class="k">Confirmación</div><div class="v">${esc(config.confirmacion)}</div></div>
-  </div>
-  <div style="text-align:center;margin-top:16px">
-    <a class="btn" href="../invitacion.ics" download>&#128197; Añadir al calendario</a>
-  </div>
 </section>`;
 }
 
@@ -429,7 +413,6 @@ function characterPage(p, hash) {
     </header>
 
     ${invitationCard(p)}
-    ${practical()}
     ${dossier(p)}
     ${wardrobe(p)}
     ${letter()}
