@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Mansion Watersdown//Murder Party//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:watersdown-20260116T200000@murder.party
+DTSTAMP:20261026T192509Z
+DTSTART:20260116T200000
+DTEND:20260117T000000
+SUMMARY:El Caso de la Mansión Watersdown — Murder Party
+DESCRIPTION:El Caso de la Mansion Watersdown — una murder party de misterio.\nAnfitriona: [NOMBRE ANFITRIONA]\nCodigo de vestimenta: Etiqueta de época, años 30\nConfirmacion: [número de WhatsApp]
+LOCATION:[DIRECCIÓN]
+END:VEVENT
+END:VCALENDAR

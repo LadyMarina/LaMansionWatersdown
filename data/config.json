@@ -1,0 +1,32 @@
+{
+  "_comentario": "EDITA AQUÍ LOS DATOS REALES DE TU FIESTA. No hace falta tocar nada más que este archivo (y, si quieres, los textos en characters.json y textos.json). Después vuelve a generar la web (ver README).",
+
+  "anfitriona": "Marina y Soff",
+  "fechaDisplay": "31",
+  "horaDisplay": "7 de la tarde",
+  "direccion": "Travau 40",
+  "codigoVestimenta": "Etiqueta de época, años 30",
+  "confirmacion": "[número de WhatsApp]",
+
+  "_comentario_calendario": "Datos usados para el botón 'Añadir al calendario' (.ics). Usa formato ISO: AAAA-MM-DDTHH:MM:SS (hora local, 24h).",
+  "calendario": {
+    "titulo": "El Caso de la Mansión Watersdown — Murder Party",
+    "inicio": "2026-01-16T20:00:00",
+    "fin": "2026-01-17T00:00:00"
+  },
+
+  "_comentario_siteUrl": "Opcional. Pon aquí la URL pública una vez publicada (p.ej. https://miweb.netlify.app) para que las etiquetas de compartir (Open Graph) usen enlaces absolutos. Déjalo vacío si no lo sabes aún.",
+  "siteUrl": "",
+
+  "_comentario_jugadoras": "Nombre real de cada jugadora. Si lo dejas vacío, NO se muestra la línea 'En el papel de'.",
+  "jugadoras": {
+    "Mallory": "",
+    "Miranda": "",
+    "Rogerina": "",
+    "Allison": "",
+    "Prosperina": "",
+    "Donna": "",
+    "Florence": "",
+    "Eiaguielle": ""
+  }
+}

@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Invitación a la Mansión Watersdown — Rogerina S. B. Astird</title>
+  <meta name="description" content="Está Ud. cordialmente invitada al fin de semana en la Mansión Watersdown (Yorkshire, 1936), en el papel de Rogerina S. B. Astird «Rog». Una murder party de misterio y época.">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="robots" content="noindex,nofollow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Invitación a la Mansión Watersdown — Rogerina S. B. Astird">
+  <meta property="og:description" content="Está Ud. cordialmente invitada al fin de semana en la Mansión Watersdown (Yorkshire, 1936), en el papel de Rogerina S. B. Astird «Rog». Una murder party de misterio y época.">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Invitación a la Mansión Watersdown — Rogerina S. B. Astird">
+  <meta name="twitter:description" content="Está Ud. cordialmente invitada al fin de semana en la Mansión Watersdown (Yorkshire, 1936), en el papel de Rogerina S. B. Astird «Rog». Una murder party de misterio y época.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+:root{
+  --noche:#0b1020; --noche-2:#121a33; --burdeos:#3a0d1b; --burdeos-2:#521327;
+  --oro:#c9a24b; --oro-claro:#e7cf93; --crema:#f3e9d2; --crema-tenue:#cdbf9f;
+  --papel:#efe4c9; --papel-2:#e4d6b4; --sepia:#2a2118;
+  --sombra:0 18px 50px rgba(0,0,0,.55);
+  --serif-titulo:'Playfair Display', Georgia, serif;
+  --serif-sub:'Cormorant Garamond', Georgia, serif;
+  --serif-texto:'EB Garamond', Georgia, 'Times New Roman', serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; color:var(--crema); font-family:var(--serif-texto);
+  font-size:18px; line-height:1.65; letter-spacing:.2px;
+  background:
+    radial-gradient(130% 90% at 50% -10%, #1a2342 0%, var(--noche) 55%, #05070f 100%),
+    var(--noche);
+  background-attachment:fixed;
+}
+body::before{
+  content:""; position:fixed; inset:0; pointer-events:none; opacity:.5; z-index:0;
+  background:
+    repeating-linear-gradient(45deg, rgba(201,162,75,.045) 0 2px, transparent 2px 22px),
+    repeating-linear-gradient(-45deg, rgba(201,162,75,.045) 0 2px, transparent 2px 22px);
+}
+.wrap{position:relative; z-index:1; max-width:720px; margin:0 auto; padding:28px 18px 72px}
+a{color:var(--oro-claro)}
+
+/* Encabezados y filetes */
+h1,h2,h3{font-family:var(--serif-titulo); font-weight:700; letter-spacing:.5px; line-height:1.15; margin:0}
+.eyebrow{font-family:var(--serif-sub); text-transform:uppercase; letter-spacing:.42em;
+  font-size:.74rem; color:var(--oro); margin:0 0 .4rem; text-align:center}
+.rule{display:flex; align-items:center; gap:14px; color:var(--oro); margin:26px 0}
+.rule::before,.rule::after{content:""; height:1px; flex:1;
+  background:linear-gradient(90deg, transparent, var(--oro) 45%, var(--oro) 55%, transparent)}
+.rule span{font-size:.9rem; transform:translateY(-1px)}
+
+/* Cabecera de la mansión */
+.masthead{text-align:center; margin:6px 0 30px}
+.masthead .crest{font-family:var(--serif-sub); color:var(--oro); letter-spacing:.3em;
+  font-size:.8rem; text-transform:uppercase}
+.masthead h1{font-size:clamp(1.7rem,7vw,2.6rem); color:var(--crema); margin:.2rem 0 .1rem}
+.masthead .sub{font-family:var(--serif-sub); color:var(--crema-tenue); font-size:1.05rem; font-style:italic}
+
+/* ── Tarjeta de invitación (papel impreso) ── */
+.envelope{perspective:1200px}
+.invite{
+  position:relative; color:var(--sepia); text-align:center;
+  background:
+    radial-gradient(120% 80% at 50% 0%, #fff6e2 0%, var(--papel) 55%, var(--papel-2) 100%);
+  border-radius:4px; padding:40px 26px 34px;
+  box-shadow:var(--sombra);
+  animation:cardOut 1.15s cubic-bezier(.2,.75,.25,1) both .15s;
+  transform-origin:center bottom;
+}
+.invite::before{
+  content:""; position:absolute; inset:12px; border:1px solid rgba(90,58,20,.5);
+  border-radius:2px; pointer-events:none;
+}
+.invite::after{
+  content:""; position:absolute; inset:17px; border:1px solid rgba(90,58,20,.28);
+  border-radius:2px; pointer-events:none;
+}
+.invite .corner{position:absolute; width:26px; height:26px; border:1px solid rgba(90,58,20,.55); opacity:.8}
+.invite .corner.tl{top:22px; left:22px; border-right:0; border-bottom:0}
+.invite .corner.tr{top:22px; right:22px; border-left:0; border-bottom:0}
+.invite .corner.bl{bottom:22px; left:22px; border-right:0; border-top:0}
+.invite .corner.br{bottom:22px; right:22px; border-left:0; border-top:0}
+.invite .host{font-family:var(--serif-titulo); font-size:1.5rem; margin:.1rem 0 .2rem}
+.invite .lead{font-family:var(--serif-sub); font-size:1.08rem; color:#4a3a22}
+.invite .manor{font-family:var(--serif-titulo); font-size:1.9rem; margin:.35rem 0 .1rem; color:#5a3a14}
+.invite .region{font-family:var(--serif-sub); letter-spacing:.35em; text-transform:uppercase; font-size:.8rem; color:#6a4a22}
+.invite .when{margin-top:.5rem; font-style:italic}
+.invite .diamond{color:#8a5a1a; letter-spacing:.6em; margin:16px 0 14px; font-size:.9rem}
+.invite .real{font-family:var(--serif-sub); font-size:1.12rem; color:#3a2d18}
+.invite .real strong{font-family:var(--serif-titulo); font-weight:700}
+.invite .meta{font-size:1rem; color:#4a3a22; margin:.2rem 0}
+.invite .role{margin-top:.6rem; font-family:var(--serif-sub); font-size:1.15rem}
+.invite .role b{font-family:var(--serif-titulo); color:#5a3a14}
+.invite .footer{margin-top:.4rem; font-family:var(--serif-sub); letter-spacing:.14em; text-transform:uppercase; font-size:.82rem; color:#6a4a22}
+.wax{display:inline-flex; align-items:center; justify-content:center; width:58px; height:58px;
+  margin:4px auto 0; border-radius:50%; color:#f6e7cf;
+  background:radial-gradient(circle at 35% 30%, #a8242f, #6d1420 70%, #4e0d16);
+  box-shadow:inset 0 2px 6px rgba(255,255,255,.25), 0 6px 14px rgba(0,0,0,.4);
+  font-family:var(--serif-titulo); font-size:1.1rem; letter-spacing:.02em}
+
+/* ── Bloques de sección ── */
+.panel{
+  background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.015));
+  border:1px solid rgba(201,162,75,.28); border-radius:6px;
+  padding:24px 22px; margin:22px 0; box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+.section-eyebrow{font-family:var(--serif-sub); text-transform:uppercase; letter-spacing:.34em;
+  font-size:.72rem; color:var(--oro); margin:0 0 .35rem}
+
+/* Ficha del personaje — la sección protagonista */
+.dossier{
+  background:
+    linear-gradient(180deg, rgba(82,19,39,.5), rgba(58,13,27,.35)),
+    linear-gradient(180deg, rgba(255,255,255,.03), transparent);
+  border:1px solid var(--oro); border-radius:8px; padding:30px 24px;
+  box-shadow:0 0 0 1px rgba(201,162,75,.25) inset, var(--sombra); margin:26px 0;
+}
+.dossier .section-eyebrow{color:var(--oro-claro)}
+.dossier h2{font-size:clamp(1.6rem,6.2vw,2.3rem); color:var(--crema)}
+.dossier .alias{font-family:var(--serif-sub); font-style:italic; font-size:1.3rem; color:var(--oro-claro); margin:.2rem 0 .1rem}
+.dossier .played-by{font-family:var(--serif-sub); font-size:1.02rem; color:var(--crema-tenue); margin:.5rem 0 0; letter-spacing:.04em}
+.dossier .played-by b{font-family:var(--serif-titulo); color:var(--oro-claro); font-weight:600}
+.dossier .bio{margin-top:1rem; font-size:1.08rem}
+
+/* Vestuario */
+.wardrobe .mine{font-size:1.06rem}
+.wardrobe .mine b{color:var(--oro-claro); font-family:var(--serif-sub); font-weight:600}
+.wardrobe .general{margin-top:1rem; padding-top:1rem; border-top:1px solid rgba(201,162,75,.2);
+  font-style:italic; color:var(--crema-tenue)}
+
+/* Carta de la secretaria */
+.letter h2{font-size:1.5rem; color:var(--crema); text-align:center; margin-bottom:.2rem}
+.letter p{margin:.8rem 0}
+.schedule{list-style:none; margin:1rem 0 0; padding:0}
+.schedule li{position:relative; padding:.4rem 0 .4rem 1.4rem; border-bottom:1px dashed rgba(201,162,75,.22)}
+.schedule li:last-child{border-bottom:0}
+.schedule li::before{content:"&#9670;"; position:absolute; left:0; top:.45rem; color:var(--oro); font-size:.7rem}
+.sign{margin-top:1.2rem; text-align:right}
+.sign .hand{font-family:'Cormorant Garamond', cursive; font-style:italic; font-size:1.5rem; color:var(--oro-claro)}
+.sign .role{font-size:.9rem; color:var(--crema-tenue)}
+
+/* Acordeón — las demás invitadas */
+.guests details{border:1px solid rgba(201,162,75,.25); border-radius:6px; margin:10px 0; overflow:hidden; background:rgba(255,255,255,.02)}
+.guests summary{cursor:pointer; list-style:none; padding:14px 16px; display:flex; align-items:baseline; gap:10px;
+  font-family:var(--serif-titulo); font-size:1.12rem; color:var(--crema)}
+.guests summary::-webkit-details-marker{display:none}
+.guests summary .alias{font-family:var(--serif-sub); font-style:italic; color:var(--oro-claro); font-size:1rem}
+.guests summary .chev{margin-left:auto; color:var(--oro); transition:transform .25s ease}
+.guests details[open] summary .chev{transform:rotate(90deg)}
+.guests .body{padding:0 16px 16px; color:var(--crema-tenue)}
+
+/* Detalles prácticos + botón calendario */
+.practical{display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:center; text-align:center}
+.practical .item{flex:1 1 200px; min-width:160px}
+.practical .k{font-family:var(--serif-sub); text-transform:uppercase; letter-spacing:.2em; font-size:.72rem; color:var(--oro)}
+.practical .v{font-size:1.02rem}
+.btn{display:inline-flex; align-items:center; gap:.5rem; margin-top:4px;
+  font-family:var(--serif-sub); text-transform:uppercase; letter-spacing:.18em; font-size:.82rem;
+  color:var(--noche); background:linear-gradient(180deg, var(--oro-claro), var(--oro));
+  border:0; border-radius:3px; padding:12px 20px; text-decoration:none; cursor:pointer;
+  box-shadow:0 8px 20px rgba(201,162,75,.25)}
+.btn:hover{filter:brightness(1.06)}
+
+.footer-note{text-align:center; color:var(--crema-tenue); font-size:.82rem; margin-top:40px; font-style:italic}
+
+/* ── La Puerta (contraseña) ── */
+.door{max-width:560px}
+.door .masthead{margin-bottom:18px}
+.portal{position:relative; height:150px; max-width:300px; margin:6px auto 2px; perspective:1100px}
+.portal .leaf{position:absolute; top:0; bottom:0; width:50%;
+  background:linear-gradient(180deg, #16203c, #0c1222);
+  border:1px solid var(--oro); box-shadow:inset 0 0 22px rgba(0,0,0,.55);
+  transition:transform .8s cubic-bezier(.3,.7,.2,1), opacity .8s ease}
+.portal .leaf::before{content:""; position:absolute; inset:10px; border:1px solid rgba(201,162,75,.4)}
+.portal .leaf::after{content:""; position:absolute; left:50%; top:18px; bottom:18px; width:1px; background:rgba(201,162,75,.25)}
+.portal .leaf.left{left:0; border-right:0; transform-origin:left center; border-radius:6px 0 0 6px}
+.portal .leaf.right{right:0; border-left:0; transform-origin:right center; border-radius:0 6px 6px 0}
+.portal .knocker{position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+  width:30px; height:30px; display:flex; align-items:center; justify-content:center;
+  color:var(--oro); border:1px solid var(--oro); border-radius:50%; font-size:.8rem;
+  box-shadow:0 0 12px rgba(201,162,75,.3); transition:opacity .5s ease}
+body.opening .portal .leaf.left{transform:rotateY(-82deg)}
+body.opening .portal .leaf.right{transform:rotateY(82deg)}
+body.opening .portal .knocker{opacity:0}
+
+.door-panel{text-align:center}
+.butler{font-family:var(--serif-sub); font-style:italic; font-size:1.3rem; color:var(--oro-claro); margin:0 0 1.1rem; line-height:1.3}
+#gate{display:flex; flex-direction:column; gap:12px; align-items:center}
+#pw{width:100%; max-width:340px; text-align:center; color:var(--crema);
+  font-family:var(--serif-sub); font-size:1.2rem; letter-spacing:.06em;
+  padding:13px 14px; background:rgba(0,0,0,.28); border:1px solid var(--oro); border-radius:4px}
+#pw::placeholder{color:rgba(205,191,159,.55); font-style:italic}
+#pw:focus{outline:none; box-shadow:0 0 0 2px rgba(201,162,75,.35)}
+.door-panel .btn{min-width:160px; justify-content:center}
+.remember{display:flex; gap:.5rem; align-items:center; font-family:var(--serif-sub);
+  font-size:.92rem; color:var(--crema-tenue); cursor:pointer; margin-top:2px}
+.remember input{accent-color:var(--oro)}
+.door-error{min-height:1.5em; margin:.3rem 0 0; color:#e7b4a0; font-style:italic;
+  font-family:var(--serif-sub); font-size:1.02rem; line-height:1.3}
+
+/* Velo de transición al abrir la puerta / llegada a la invitación */
+#veil{position:fixed; inset:0; z-index:60; pointer-events:none; opacity:0;
+  background:radial-gradient(circle at 50% 42%, rgba(231,207,147,.12), #05070f 70%);
+  transition:opacity .85s ease}
+body.opening #veil{opacity:1}
+.arrive{animation:pageIn .7s ease both}
+@keyframes pageIn{from{opacity:0; transform:translateY(8px)} to{opacity:1; transform:none}}
+
+/* "No soy yo / cambiar de invitada" */
+.switch-guest{text-align:center; margin-top:34px}
+.switch-guest a{font-family:var(--serif-sub); font-size:.9rem; color:var(--crema-tenue);
+  text-decoration:none; border-bottom:1px solid rgba(201,162,75,.35); padding-bottom:1px}
+.switch-guest a:hover{color:var(--oro-claro)}
+
+@keyframes shake{
+  10%,90%{transform:translateX(-2px)} 20%,80%{transform:translateX(4px)}
+  30%,50%,70%{transform:translateX(-8px)} 40%,60%{transform:translateX(8px)}
+}
+#pw.shake{animation:shake .5s}
+@media (prefers-reduced-motion:reduce){
+  .portal .leaf{transition:none} #veil{transition:none} .arrive{animation:none} #pw.shake{animation:none}
+}
+
+@keyframes cardOut{
+  0%{transform:translateY(42px) rotateX(10deg) scale(.985); opacity:0}
+  100%{transform:none; opacity:1}
+}
+@media (prefers-reduced-motion:reduce){
+  .invite{animation:none}
+}
+@media (min-width:640px){
+  body{font-size:19px}
+  .wrap{padding-top:40px}
+  .invite{padding:52px 44px 40px}
+}
+</style>
+</head>
+<body>
+  <div id="veil" aria-hidden="true"></div>
+  <main class="wrap arrive">
+    <header class="masthead">
+      <div class="crest">&#9670; Watersdown Manor &#9670;</div>
+      <h1>La Mansión Watersdown</h1>
+      <div class="sub">Yorkshire, Inglaterra &middot; 1936</div>
+    </header>
+
+    <section class="envelope" aria-label="Tarjeta de invitación">
+  <article class="invite">
+    <span class="corner tl"></span><span class="corner tr"></span>
+    <span class="corner bl"></span><span class="corner br"></span>
+    <div class="host">Sir Roger Watersdown</div>
+    <div class="lead">tiene el placer de invitarle a pasar el fin de semana en</div>
+    <div class="manor">La Mansión Watersdown</div>
+    <div class="region">Yorkshire</div>
+    <div class="when">De Viernes a Domingo, 11 al 13 de enero de 1936</div>
+    <div class="wax" aria-hidden="true">RW</div>
+  </article>
+</section>
+    <section class="panel">
+  <p class="section-eyebrow" style="text-align:center">En realidad está Ud. cordialmente invitada a casa de [NOMBRE ANFITRIONA]</p>
+  <div class="practical">
+    <div class="item"><div class="k">Fecha</div><div class="v">[FECHA]</div></div>
+    <div class="item"><div class="k">Hora</div><div class="v">[HORA]</div></div>
+    <div class="item"><div class="k">Dirección</div><div class="v">[DIRECCIÓN]</div></div>
+    <div class="item"><div class="k">Código de vestimenta</div><div class="v">Etiqueta de época, años 30</div></div>
+    <div class="item"><div class="k">Confirmación</div><div class="v">[número de WhatsApp]</div></div>
+  </div>
+  <div style="text-align:center;margin-top:16px">
+    <a class="btn" href="../invitacion.ics" download>&#128197; Añadir al calendario</a>
+  </div>
+</section>
+    <section class="dossier" aria-label="Ficha del personaje">
+  <p class="section-eyebrow">Ficha del personaje</p>
+  <h2>Rogerina S. B. Astird</h2>
+  <div class="alias">«Rog»</div>
+  <p class="bio">Rogerina es la hija ilegítima de Sir Roger, durante mucho tiempo desaparecida, ya que fue secuestrada en su infancia por la niñera. Aunque piensa convertirse en arquitecta, ha aprovechado su estancia en Europa para practicar su hobby favorito: la escalada. Sir Roger, al descubrir que Rog es su hija, la acoge con gusto en la Mansión Watersdown, donde todos la llaman Rog para evitar confusiones.</p>
+</section>
+    <section class="panel wardrobe" aria-label="Sugerencia de vestuario">
+  <p class="section-eyebrow">Sugerencia de vestuario</p>
+  <p class="mine"><b>Rogerina S. B. Astird:</b> Equipo de escaladora: boina, pantalón corto y camiseta caqui, piolet y botas de montaña.</p>
+  <p class="general">Las invitadas de la Mansión Watersdown visten de etiqueta para el cóctel y la cena: vestidos de noche largos y ceñidos, sedas, espaldas al aire… o, si alguna lo prefiere, smoking o frac al estilo Marlene Dietrich. ¡Cuanto más años 30, mejor!</p>
+</section>
+    <section class="panel letter" aria-label="Carta de la secretaria">
+  <h2>A Todas las Invitadas a la Mansión Watersdown</h2>
+  <div class="rule" aria-hidden="true"><span>&#9670;</span></div>
+  <p>A través de invitaciones personalizadas, Ud. y un grupo selecto de amigas han sido invitadas a pasar el fin de semana en la Mansión Watersdown, como huéspedes de Sir Roger. Como secretaria de Sir Roger, pensé que podría interesarle algo de información acerca de la mansión e incluso acerca de las otras huéspedes que habrá durante su estancia. Adjunto una breve biografía de cada una de ellas.</p>
+  <p>La mansión Watersdown es un antiguo y elegante edificio de piedra situado en Yorkshire, Inglaterra, construido en 1817 por Lord Balmy Farfrummit, el cual hizo fortuna vendiendo lingotes de hierro a los franceses después de la derrota de Napoleón en 1815. Roger Watersdown adquirió la totalidad de las posesiones Farfrummit a bordo de su yate «Frummit's Ferry», que se fue a pique durante una fuerte tormenta cerca del Puerto Falmouth.</p>
+  <p>Sir Roger, quien, como Ud. ya sabe, es el principal accionista del grupo de empresas Bebidas Watersdown Ltd., es conocido por ser un encantador anfitrión. Las invitadas quedan avisadas de que Sir Roger, tras haber consumido los acostumbrados cocktailes antes de la cena, tiende a ser lujurioso.</p>
+  <p>En nombre de Sir Roger y del servicio de la Mansión Watersdown, sean bienvenidas y tengan una agradable estancia.</p>
+  <ul class="schedule">
+    <li>Desayuno (Sábado y Domingo): 12.00 h del mediodía en el comedor principal.</li>
+    <li>Aperitivos: 14.30 - 18.30 h en el salón del piso superior.</li>
+    <li>Cocktailes: a cualquier hora, en el bar.</li>
+    <li>Cocktailes antes de la cena (Viernes y Sábado): 19.00 h en el salón.</li>
+    <li>Cena (Viernes y Sábado): tras el cóctel, en el salón principal (Gran Salón).</li>
+  </ul>
+  <div class="sign">
+    <div>Atentamente,</div>
+    <div class="hand">Ms. E. R. Aminmund</div>
+    <div class="role">Ms. E. R. Aminmund — Secretaria privada de Sir Roger Watersdown</div>
+  </div>
+</section>
+    <section class="panel guests" aria-label="Las demás invitadas">
+  <p class="section-eyebrow">Las demás invitadas</p>
+  <details>
+    <summary><span>Dra. Mallory K. T. Praktiss</span> <span class="alias">«Mal»</span> <span class="chev" aria-hidden="true">&#9654;</span></summary>
+    <div class="body">Médica en Harley Street, la Dra. Praktiss posee una notable fortuna y es la médica privada de Sir Roger. Normalmente, es pareja de bridge de Sir Roger en el Gribbley, el selecto club de cartas de Londres al que ambos pertenecen. Es bastante bien parecida y una profesional muy estimada con reputación de ser la «Médica de los Ricos». No está casada, pero tiene muchas amistades femeninas. Sus amigos la llaman «Mal».</div>
+  </details>
+  <details>
+    <summary><span>Miranda T. Shetes</span> <span class="alias">«Randy»</span> <span class="chev" aria-hidden="true">&#9654;</span></summary>
+    <div class="body">Joven y guapa actriz americana, famosa por su talento y perfil clásico. Acaba de interpretar a Miss Hardcastle en «Sucumbió a la Seducción», de Oliver Goldmint. Este triunfo cinematográfico la ha dado a conocer al público y ha supuesto el lanzamiento de su carrera dramática. Para todos sus amigos es «Randy».</div>
+  </details>
+  <details>
+    <summary><span>Dame Allison Bigh</span> <span class="alias">«Ali»</span> <span class="chev" aria-hidden="true">&#9654;</span></summary>
+    <div class="body">Escritora de novelas de misterio inglesas, la Ilustrísima Dama Bigh ha disfrutado de gran popularidad y éxito desde su best-seller «El frío Acuchillar del Acero», publicado hace 2 años. A raíz de esta novela, se ha alabado su estilo por su vívida caracterización de la mente criminal. La Ilustrísima Dama es huésped en Watersdown para reunir material y ambiente para su último libro. Sir Roger es un gran admirador de sus obras. La Ilustrísima Dama Bigh es llamada «Ali» por sus íntimos.</div>
+  </details>
+  <details>
+    <summary><span>Prosperina Alvina Bates</span> <span class="alias">«Pro»</span> <span class="chev" aria-hidden="true">&#9654;</span></summary>
+    <div class="body">Abogada de Sir Roger es, además, su asesora personal y compañera de golf, deporte del que es una gran jugadora; se dedica a asuntos de negocios de Sir Roger. Es directora del Comité de Bebidas de Watersdown, Ltd., y es una huésped asidua de la Mansión Watersdown. La casa de campo de la abogada Bates, Whole-In-Won, tiene acceso privado y es colindante con la propiedad de los Watersdown. Sus amigos la llaman «Pro».</div>
+  </details>
+  <details>
+    <summary><span>Donna J. Brooks</span> <span class="alias">«Donny»</span> <span class="chev" aria-hidden="true">&#9654;</span></summary>
+    <div class="body">Banquera de la ciudad y sobrina de Sir Roger. A sus 35 años Mrs. Brooks ha logrado un éxito notable y ha obtenido una reputación como brillante estratega financiera. Últimamente se han publicado algunos artículos sobre ella en el «Banker's Fashion News» (Actualidad Bancaria) y está creándose una amplia red de contactos internacionales muy interesantes para su carrera. En casa la llaman «Donny».</div>
+  </details>
+  <details>
+    <summary><span>Florence Wing Brooks</span> <span class="alias">«Flo»</span> <span class="chev" aria-hidden="true">&#9654;</span></summary>
+    <div class="body">La esposa de Donna J. Brooks y la heredera de la fortuna del Conde y la Condesa Wing, ambos aún vivos. Florence es hermosísima y trabajó como modelo hasta entrar en la alta sociedad a través de su matrimonio con Mrs. Brooks; se le conocía como la chica de la «Sombra de Ojos del Lejano Oriente». Desde su matrimonio, ella y su esposa han viajado muchísimo. Florence desborda encanto y vivacidad. Sus padres la llaman «Flo».</div>
+  </details>
+  <details>
+    <summary><span>Eiaguielle R. Aminmund</span> <span class="alias">«E» o «ERA»</span> <span class="chev" aria-hidden="true">&#9654;</span></summary>
+    <div class="body">Secretaria privada de Sir Roger, es una persona de gran talento y ambición. Desde la muerte de Lady Watersdown cuatro años atrás, ha actuado frecuentemente como anfitriona en las fiestas de la Mansión Watersdown. Está a cargo de prácticamente todos los asuntos de la casa. Como su nombre es tan largo, sus amigos la llaman «E».</div>
+  </details>
+</section>
+
+    <p class="switch-guest"><a href="../" id="notme">&#8592; ¿No es su invitación? Cambiar de invitada</a></p>
+    <p class="footer-note">Cómo Organizar un Asesinato &middot; El Caso de la Mansión Watersdown</p>
+  </main>
+  <script>
+    // "No soy yo": olvida el dispositivo y vuelve a la puerta.
+    (function(){
+      var a = document.getElementById('notme');
+      if(a){ a.addEventListener('click', function(){ try{ localStorage.removeItem('watersdown.ruta'); }catch(e){} }); }
+    })();
+  </script>
+</body>
+</html>

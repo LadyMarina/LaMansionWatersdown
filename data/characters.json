@@ -1,0 +1,61 @@
+{
+  "_comentario": "Textos PÚBLICOS de cada personaje. Orden = orden del juego. Edita libremente sin tocar el código.",
+  "personajes": [
+    {
+      "ruta": "Mallory",
+      "nombre": "Dra. Mallory K. T. Praktiss",
+      "apodo": "«Mal»",
+      "bio": "Médica en Harley Street, la Dra. Praktiss posee una notable fortuna y es la médica privada de Sir Roger. Normalmente, es pareja de bridge de Sir Roger en el Gribbley, el selecto club de cartas de Londres al que ambos pertenecen. Es bastante bien parecida y una profesional muy estimada con reputación de ser la «Médica de los Ricos». No está casada, pero tiene muchas amistades femeninas. Sus amigos la llaman «Mal».",
+      "vestuario": "Una bata de médica, estetoscopio y un maletín."
+    },
+    {
+      "ruta": "Miranda",
+      "nombre": "Miranda T. Shetes",
+      "apodo": "«Randy»",
+      "bio": "Joven y guapa actriz americana, famosa por su talento y perfil clásico. Acaba de interpretar a Miss Hardcastle en «Sucumbió a la Seducción», de Oliver Goldmint. Este triunfo cinematográfico la ha dado a conocer al público y ha supuesto el lanzamiento de su carrera dramática. Para todos sus amigos es «Randy».",
+      "vestuario": "Sensual; vestido de noche ceñido y sin espalda."
+    },
+    {
+      "ruta": "Rogerina",
+      "nombre": "Rogerina S. B. Astird",
+      "apodo": "«Rog»",
+      "bio": "Rogerina es la hija ilegítima de Sir Roger, durante mucho tiempo desaparecida, ya que fue secuestrada en su infancia por la niñera. Aunque piensa convertirse en arquitecta, ha aprovechado su estancia en Europa para practicar su hobby favorito: la escalada. Sir Roger, al descubrir que Rog es su hija, la acoge con gusto en la Mansión Watersdown, donde todos la llaman Rog para evitar confusiones.",
+      "vestuario": "Equipo de escaladora: boina, pantalón corto y camiseta caqui, piolet y botas de montaña."
+    },
+    {
+      "ruta": "Allison",
+      "nombre": "Dame Allison Bigh",
+      "apodo": "«Ali»",
+      "bio": "Escritora de novelas de misterio inglesas, la Ilustrísima Dama Bigh ha disfrutado de gran popularidad y éxito desde su best-seller «El frío Acuchillar del Acero», publicado hace 2 años. A raíz de esta novela, se ha alabado su estilo por su vívida caracterización de la mente criminal. La Ilustrísima Dama es huésped en Watersdown para reunir material y ambiente para su último libro. Sir Roger es un gran admirador de sus obras. La Ilustrísima Dama Bigh es llamada «Ali» por sus íntimos.",
+      "vestuario": "Un vestido largo, ni demasiado sobrio ni demasiado recatado."
+    },
+    {
+      "ruta": "Prosperina",
+      "nombre": "Prosperina Alvina Bates",
+      "apodo": "«Pro»",
+      "bio": "Abogada de Sir Roger es, además, su asesora personal y compañera de golf, deporte del que es una gran jugadora; se dedica a asuntos de negocios de Sir Roger. Es directora del Comité de Bebidas de Watersdown, Ltd., y es una huésped asidua de la Mansión Watersdown. La casa de campo de la abogada Bates, Whole-In-Won, tiene acceso privado y es colindante con la propiedad de los Watersdown. Sus amigos la llaman «Pro».",
+      "vestuario": "Traje sastre oscuro y portafolios, o atuendo de golf."
+    },
+    {
+      "ruta": "Donna",
+      "nombre": "Donna J. Brooks",
+      "apodo": "«Donny»",
+      "bio": "Banquera de la ciudad y sobrina de Sir Roger. A sus 35 años Mrs. Brooks ha logrado un éxito notable y ha obtenido una reputación como brillante estratega financiera. Últimamente se han publicado algunos artículos sobre ella en el «Banker's Fashion News» (Actualidad Bancaria) y está creándose una amplia red de contactos internacionales muy interesantes para su carrera. En casa la llaman «Donny».",
+      "vestuario": "Traje sastre de ejecutiva de banca."
+    },
+    {
+      "ruta": "Florence",
+      "nombre": "Florence Wing Brooks",
+      "apodo": "«Flo»",
+      "bio": "La esposa de Donna J. Brooks y la heredera de la fortuna del Conde y la Condesa Wing, ambos aún vivos. Florence es hermosísima y trabajó como modelo hasta entrar en la alta sociedad a través de su matrimonio con Mrs. Brooks; se le conocía como la chica de la «Sombra de Ojos del Lejano Oriente». Desde su matrimonio, ella y su esposa han viajado muchísimo. Florence desborda encanto y vivacidad. Sus padres la llaman «Flo».",
+      "vestuario": "Vestido largo a la última moda o un kimono."
+    },
+    {
+      "ruta": "Eiaguielle",
+      "nombre": "Eiaguielle R. Aminmund",
+      "apodo": "«E» o «ERA»",
+      "bio": "Secretaria privada de Sir Roger, es una persona de gran talento y ambición. Desde la muerte de Lady Watersdown cuatro años atrás, ha actuado frecuentemente como anfitriona en las fiestas de la Mansión Watersdown. Está a cargo de prácticamente todos los asuntos de la casa. Como su nombre es tan largo, sus amigos la llaman «E».",
+      "vestuario": "Vestido con cuello y mangas de encaje, gafas de pasta y un cuaderno para tomar notas."
+    }
+  ]
+}

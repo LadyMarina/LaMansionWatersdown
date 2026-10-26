@@ -1,0 +1,11 @@
+{
+  "_comentario": "Contraseña (respuesta del acertijo) de cada invitada. Edita libremente y vuelve a ejecutar 'node build.mjs'. Este archivo NO se publica: solo se usa para generar las rutas secretas. En la web nunca aparece la contraseña en texto plano.",
+  "Mallory": "estetoscopio",
+  "Miranda": "telon",
+  "Rogerina": "compas",
+  "Allison": "tinta",
+  "Prosperina": "toga",
+  "Donna": "moneda",
+  "Florence": "espejo",
+  "Eiaguielle": "agenda"
+}
