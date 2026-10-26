@@ -128,6 +128,23 @@ h1,h2,h3{font-family:var(--serif-titulo); font-weight:700; letter-spacing:.5px; 
 .dossier .played-by{font-family:var(--serif-sub); font-size:1.02rem; color:var(--crema-tenue); margin:.5rem 0 0; letter-spacing:.04em}
 .dossier .played-by b{font-family:var(--serif-titulo); color:var(--oro-claro); font-weight:600}
 .dossier .bio{margin-top:1rem; font-size:1.08rem}
+/* Información oculta (La Sórdida Realidad) — tras botón con ojo */
+.dossier .secret{margin-top:1.4rem; border-top:1px solid rgba(201,162,75,.25); padding-top:1.1rem}
+.dossier .secret summary{list-style:none; cursor:pointer; display:inline-flex; align-items:center; gap:.55rem;
+  font-family:var(--serif-sub); font-size:1.02rem; letter-spacing:.04em; color:var(--oro-claro);
+  padding:.5rem .95rem; border:1px solid var(--oro); border-radius:999px;
+  background:linear-gradient(180deg, rgba(201,162,75,.14), rgba(201,162,75,.05)); transition:.2s}
+.dossier .secret summary::-webkit-details-marker{display:none}
+.dossier .secret summary:hover{background:linear-gradient(180deg, rgba(201,162,75,.24), rgba(201,162,75,.1))}
+.dossier .secret .eye{font-size:1.15rem; line-height:1}
+.dossier .secret[open] summary .secret-label::after{content:" (ocultar)"; color:var(--crema-tenue)}
+.dossier .secret-inner{margin-top:1rem; padding:1rem 1.1rem; border-radius:8px;
+  border:1px solid rgba(168,36,47,.45);
+  background:linear-gradient(180deg, rgba(109,20,32,.35), rgba(58,13,27,.25))}
+.dossier .secret-inner p{margin:.7rem 0; font-size:1.06rem}
+.dossier .secret-inner p:first-child{margin-top:0}
+.dossier .secret-warn{font-family:var(--serif-sub); font-style:italic; letter-spacing:.03em;
+  color:#e7a6ad; text-transform:none; font-size:.98rem}
 
 /* Vestuario */
 .wardrobe .mine{font-size:1.06rem}
@@ -268,7 +285,18 @@ body.opening #veil{opacity:1}
   <p class="section-eyebrow">Ficha del personaje</p>
   <h2>Prosperina Alvina Bates</h2>
   <div class="alias">«Pro»</div>
-  <p class="bio">Abogada de Sir Roger es, además, su asesora personal y compañera de golf, deporte del que es una gran jugadora; se dedica a asuntos de negocios de Sir Roger. Es directora del Comité de Bebidas de Watersdown, Ltd., y es una huésped asidua de la Mansión Watersdown. La casa de campo de la abogada Bates, Whole-In-Won, tiene acceso privado y es colindante con la propiedad de los Watersdown. Sus amigos la llaman «Pro».</p>
+  <p class="bio">Eres la abogada de Sir Roger, su asesora personal y su compañera de golf. Eres una gran jugadora de golf y tu actividad profesional consiste principalmente en llevar los negocios de Sir Roger. Eres directiva en el Consejo de Bebidas Watersdown. Tu casa de campo, Whole-In-Won, con su carretera de acceso privada, linda con las posesiones Watersdown.</p>
+  <p class="bio">Tus amigos te llaman «Pro».</p>
+  <details class="secret">
+    <summary>
+      <span class="eye" aria-hidden="true">&#128065;</span>
+      <span class="secret-label">Información oculta — solo para ti</span>
+    </summary>
+    <div class="secret-inner">
+      <p class="secret-warn">No facilites esta información a las demás invitadas.</p>
+      <p>Eres la primera hija ilegítima de Sir Roger y en su testamento te nombraba su heredera hasta la llegada de Rogerina Astird. A pesar de tus protestas, Sir Roger ha cambiado su testamento dejándoselo todo a Rogerina Astird. Has estado malversando los fondos de Bebidas Watersdown, Ltd. porque necesitas dinero para pagar deudas de juego. Puede ser que Sir Roger haya descubierto tus fechorías ya que recientemente te trata con frialdad. Ha concertado una reunión con sus auditores para la próxima semana.</p>
+    </div>
+  </details>
 </section>
     <section class="panel wardrobe" aria-label="Sugerencia de vestuario">
   <p class="section-eyebrow">Sugerencia de vestuario</p>

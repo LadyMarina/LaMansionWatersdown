@@ -128,6 +128,23 @@ h1,h2,h3{font-family:var(--serif-titulo); font-weight:700; letter-spacing:.5px; 
 .dossier .played-by{font-family:var(--serif-sub); font-size:1.02rem; color:var(--crema-tenue); margin:.5rem 0 0; letter-spacing:.04em}
 .dossier .played-by b{font-family:var(--serif-titulo); color:var(--oro-claro); font-weight:600}
 .dossier .bio{margin-top:1rem; font-size:1.08rem}
+/* Información oculta (La Sórdida Realidad) — tras botón con ojo */
+.dossier .secret{margin-top:1.4rem; border-top:1px solid rgba(201,162,75,.25); padding-top:1.1rem}
+.dossier .secret summary{list-style:none; cursor:pointer; display:inline-flex; align-items:center; gap:.55rem;
+  font-family:var(--serif-sub); font-size:1.02rem; letter-spacing:.04em; color:var(--oro-claro);
+  padding:.5rem .95rem; border:1px solid var(--oro); border-radius:999px;
+  background:linear-gradient(180deg, rgba(201,162,75,.14), rgba(201,162,75,.05)); transition:.2s}
+.dossier .secret summary::-webkit-details-marker{display:none}
+.dossier .secret summary:hover{background:linear-gradient(180deg, rgba(201,162,75,.24), rgba(201,162,75,.1))}
+.dossier .secret .eye{font-size:1.15rem; line-height:1}
+.dossier .secret[open] summary .secret-label::after{content:" (ocultar)"; color:var(--crema-tenue)}
+.dossier .secret-inner{margin-top:1rem; padding:1rem 1.1rem; border-radius:8px;
+  border:1px solid rgba(168,36,47,.45);
+  background:linear-gradient(180deg, rgba(109,20,32,.35), rgba(58,13,27,.25))}
+.dossier .secret-inner p{margin:.7rem 0; font-size:1.06rem}
+.dossier .secret-inner p:first-child{margin-top:0}
+.dossier .secret-warn{font-family:var(--serif-sub); font-style:italic; letter-spacing:.03em;
+  color:#e7a6ad; text-transform:none; font-size:.98rem}
 
 /* Vestuario */
 .wardrobe .mine{font-size:1.06rem}
@@ -268,7 +285,18 @@ body.opening #veil{opacity:1}
   <p class="section-eyebrow">Ficha del personaje</p>
   <h2>Rogerina S. B. Astird</h2>
   <div class="alias">«Rog»</div>
-  <p class="bio">Rogerina es la hija ilegítima de Sir Roger, durante mucho tiempo desaparecida, ya que fue secuestrada en su infancia por la niñera. Aunque piensa convertirse en arquitecta, ha aprovechado su estancia en Europa para practicar su hobby favorito: la escalada. Sir Roger, al descubrir que Rog es su hija, la acoge con gusto en la Mansión Watersdown, donde todos la llaman Rog para evitar confusiones.</p>
+  <p class="bio">Eres la hija ilegítima de Sir Roger, que fuiste secuestrada en tu infancia por tu niñera y desapareciste mucho tiempo. Estás viajando por Europa y estudiando la arquitectura y la construcción de los castillos y fincas baroniales europeas. Aunque piensas convertirte en arquitecta, has aprovechado tu estancia en Europa para dedicarte a una de tus aficiones favoritas: la escalada. Sir Roger, al descubrir que eres su hija, te ha recibido con agrado en la Mansión Watersdown.</p>
+  <p class="bio">Para evitar confusiones con tu padre, en la Mansión Watersdown eres conocida como Rog</p>
+  <details class="secret">
+    <summary>
+      <span class="eye" aria-hidden="true">&#128065;</span>
+      <span class="secret-label">Información oculta — solo para ti</span>
+    </summary>
+    <div class="secret-inner">
+      <p class="secret-warn">No facilites esta información a las demás invitadas.</p>
+      <p>Eres una impostora que ha asesinado a la desaparecida hija de Sir Roger. Has preparado el camino hacia la Mansión Watersdown consiguiendo primero el favor de ERA. Intentaste seducirla al descubrir que era activista por los derechos de la mujer, fingiste interesarte por la causa. ERA ha sido de lo más persuasiva por ti y como resultado, Sir Roger ha cambiado el testamento a tu favor. En el intento de hacerte pasar por Rogerina Astird, cambiaste tu aspecto incluyendo el color de los ojos, llevas lentes de contacto (que transforman tus ojos marrones en azules). De todas formas, tienes que estar constantemente en guardia. Sir Roger sospecha algo. La vida es peligrosa.</p>
+    </div>
+  </details>
 </section>
     <section class="panel wardrobe" aria-label="Sugerencia de vestuario">
   <p class="section-eyebrow">Sugerencia de vestuario</p>

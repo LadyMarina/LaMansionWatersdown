@@ -128,6 +128,23 @@ h1,h2,h3{font-family:var(--serif-titulo); font-weight:700; letter-spacing:.5px; 
 .dossier .played-by{font-family:var(--serif-sub); font-size:1.02rem; color:var(--crema-tenue); margin:.5rem 0 0; letter-spacing:.04em}
 .dossier .played-by b{font-family:var(--serif-titulo); color:var(--oro-claro); font-weight:600}
 .dossier .bio{margin-top:1rem; font-size:1.08rem}
+/* Información oculta (La Sórdida Realidad) — tras botón con ojo */
+.dossier .secret{margin-top:1.4rem; border-top:1px solid rgba(201,162,75,.25); padding-top:1.1rem}
+.dossier .secret summary{list-style:none; cursor:pointer; display:inline-flex; align-items:center; gap:.55rem;
+  font-family:var(--serif-sub); font-size:1.02rem; letter-spacing:.04em; color:var(--oro-claro);
+  padding:.5rem .95rem; border:1px solid var(--oro); border-radius:999px;
+  background:linear-gradient(180deg, rgba(201,162,75,.14), rgba(201,162,75,.05)); transition:.2s}
+.dossier .secret summary::-webkit-details-marker{display:none}
+.dossier .secret summary:hover{background:linear-gradient(180deg, rgba(201,162,75,.24), rgba(201,162,75,.1))}
+.dossier .secret .eye{font-size:1.15rem; line-height:1}
+.dossier .secret[open] summary .secret-label::after{content:" (ocultar)"; color:var(--crema-tenue)}
+.dossier .secret-inner{margin-top:1rem; padding:1rem 1.1rem; border-radius:8px;
+  border:1px solid rgba(168,36,47,.45);
+  background:linear-gradient(180deg, rgba(109,20,32,.35), rgba(58,13,27,.25))}
+.dossier .secret-inner p{margin:.7rem 0; font-size:1.06rem}
+.dossier .secret-inner p:first-child{margin-top:0}
+.dossier .secret-warn{font-family:var(--serif-sub); font-style:italic; letter-spacing:.03em;
+  color:#e7a6ad; text-transform:none; font-size:.98rem}
 
 /* Vestuario */
 .wardrobe .mine{font-size:1.06rem}
@@ -268,7 +285,19 @@ body.opening #veil{opacity:1}
   <p class="section-eyebrow">Ficha del personaje</p>
   <h2>Dame Allison Bigh</h2>
   <div class="alias">«Ali»</div>
-  <p class="bio">Escritora de novelas de misterio inglesas, la Ilustrísima Dama Bigh ha disfrutado de gran popularidad y éxito desde su best-seller «El frío Acuchillar del Acero», publicado hace 2 años. A raíz de esta novela, se ha alabado su estilo por su vívida caracterización de la mente criminal. La Ilustrísima Dama es huésped en Watersdown para reunir material y ambiente para su último libro. Sir Roger es un gran admirador de sus obras. La Ilustrísima Dama Bigh es llamada «Ali» por sus íntimos.</p>
+  <p class="bio">Escribes novelas de misterio y has conseguido gran popularidad y éxito desde que se publicó tu best-seller «El Frío Acuchillar del Acero» hace dos años. Desde que apareció esa novela, tu estilo ha sido elogiado por el sorprendente realismo en la caracterización de la mente criminal. Estás invitada a la Mansión Watersdown para recopilar material y ambientación para tu nuevo libro, una continuación de «El Frío Acuchillar del Acero». Sir Roger es un gran admirador de tu obra.</p>
+  <p class="bio">Tus amigos más íntimos te conocen por «Ali».</p>
+  <details class="secret">
+    <summary>
+      <span class="eye" aria-hidden="true">&#128065;</span>
+      <span class="secret-label">Información oculta — solo para ti</span>
+    </summary>
+    <div class="secret-inner">
+      <p class="secret-warn">No facilites esta información a las demás invitadas.</p>
+      <p>Eres una asesina empedernida. Cometiste un asesinato que más tarde se convirtió en el argumento de tu best-seller. El asesinato tuvo lugar en la campiña Inglesa no muy lejos de Watersdown, donde estás invitada. La policía nunca resolvió el asesinato pero tú crees que Sir Roger sospecha que tú lo hiciste.</p>
+      <p>Eres además, una gran hipnotizadora, aunque este hecho no es del dominio público.</p>
+    </div>
+  </details>
 </section>
     <section class="panel wardrobe" aria-label="Sugerencia de vestuario">
   <p class="section-eyebrow">Sugerencia de vestuario</p>

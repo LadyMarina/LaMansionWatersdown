@@ -1,61 +1,119 @@
 {
-  "_comentario": "Textos PÚBLICOS de cada personaje. Orden = orden del juego. Edita libremente sin tocar el código.",
+  "_comentario": "'tuImagen' = texto EXACTO de 'Tu Imagen' del cuadernillo (en 2ª persona): se muestra en TU Ficha del personaje. 'bio' (3ª persona) se usa en 'Las demás invitadas'. 'secreto' = La Sórdida Realidad (oculta tras el ojo), solo en tu propia página. nombre/apodo/vestuario son públicos. Orden = orden del juego.",
   "personajes": [
     {
       "ruta": "Mallory",
       "nombre": "Dra. Mallory K. T. Praktiss",
       "apodo": "«Mal»",
+      "tuImagen": [
+        "Eres médico en la calle Harley y disfrutas de una posición económica muy acomodada. Además de médico personal de Sir Roger, eres con frecuencia su compañera de bridge en El Gribbley, el exclusivo club de cartas de Londres del que ambos sois socios.",
+        "Eres bien parecida y una excelente profesional con muy buena reputación como \"Médica de Ricos\". Nunca has estado casada pero tienes muchas amigas.",
+        "Tus amigos te llaman Mal."
+      ],
       "bio": "Médica en Harley Street, la Dra. Praktiss posee una notable fortuna y es la médica privada de Sir Roger. Normalmente, es pareja de bridge de Sir Roger en el Gribbley, el selecto club de cartas de Londres al que ambos pertenecen. Es bastante bien parecida y una profesional muy estimada con reputación de ser la «Médica de los Ricos». No está casada, pero tiene muchas amistades femeninas. Sus amigos la llaman «Mal».",
-      "vestuario": "Una bata de médica, estetoscopio y un maletín."
+      "vestuario": "Una bata de médica, estetoscopio y un maletín.",
+      "secreto": [
+        "Colaboraste a ocasionar la muerte «accidental» de Lady Watersdown, recetándole medicamentos profesionalmente pero después de una pelea de amantes, ya que ella quería confesar a Sir Roger su affair para poder divorciarse de él y casarse contigo. La muerte fue consecuencia de una sobredosis de somníferos. De hecho, disolviste un gran número de pastillas en el vaso de agua de Lady Watersdown antes de marcharte y ella, al tomarse una pastilla y beberse el agua, se autoadministró la sobredosis. Siempre has temido que Sir Roger sospechase de ti, en primer lugar por tener un affair con su mujer, y en segundo lugar, por administrarle la sobredosis, aunque la Investigación del Médico Forense indicó que tú estabas en El Gribbley con Sir Roger cuando Lady Watersdown se tomó las pastillas."
+      ]
     },
     {
       "ruta": "Miranda",
       "nombre": "Miranda T. Shetes",
       "apodo": "«Randy»",
+      "tuImagen": [
+        "Eres una bella actriz americana por tu talento y tu perfil clásico. Acabas de protagonizar a Miss Hardcastle en «She Bends Over to Conquer», de Oliver Goldmint. Este triunfo cinematográfico te ha dado a conocer al público y ha supuesto el lanzamiento de tu carrera dramática.",
+        "Para los amigos eres «Randy»."
+      ],
       "bio": "Joven y guapa actriz americana, famosa por su talento y perfil clásico. Acaba de interpretar a Miss Hardcastle en «Sucumbió a la Seducción», de Oliver Goldmint. Este triunfo cinematográfico la ha dado a conocer al público y ha supuesto el lanzamiento de su carrera dramática. Para todos sus amigos es «Randy».",
-      "vestuario": "Sensual; vestido de noche ceñido y sin espalda."
+      "vestuario": "Sensual; vestido de noche ceñido y sin espalda.",
+      "secreto": [
+        "Secretamente eres una Reina del Porno cuyo éxito se basa en tu relación amorosa con los que financian tus películas. Sir Roger financió varias de tus producciones pornográficas y llegaste a conocer sus encantos. De todas formas, ahora que has demostrado tus cualidades como actriz y has tenido una oferta para protagonizar una nueva producción dramática, Sir Roger te ha amenazado con dar a conocer tu película pornográfica, que se titulaba «Labios Calientes»."
+      ]
     },
     {
       "ruta": "Rogerina",
       "nombre": "Rogerina S. B. Astird",
       "apodo": "«Rog»",
+      "tuImagen": [
+        "Eres la hija ilegítima de Sir Roger, que fuiste secuestrada en tu infancia por tu niñera y desapareciste mucho tiempo. Estás viajando por Europa y estudiando la arquitectura y la construcción de los castillos y fincas baroniales europeas. Aunque piensas convertirte en arquitecta, has aprovechado tu estancia en Europa para dedicarte a una de tus aficiones favoritas: la escalada. Sir Roger, al descubrir que eres su hija, te ha recibido con agrado en la Mansión Watersdown.",
+        "Para evitar confusiones con tu padre, en la Mansión Watersdown eres conocida como Rog"
+      ],
       "bio": "Rogerina es la hija ilegítima de Sir Roger, durante mucho tiempo desaparecida, ya que fue secuestrada en su infancia por la niñera. Aunque piensa convertirse en arquitecta, ha aprovechado su estancia en Europa para practicar su hobby favorito: la escalada. Sir Roger, al descubrir que Rog es su hija, la acoge con gusto en la Mansión Watersdown, donde todos la llaman Rog para evitar confusiones.",
-      "vestuario": "Equipo de escaladora: boina, pantalón corto y camiseta caqui, piolet y botas de montaña."
+      "vestuario": "Equipo de escaladora: boina, pantalón corto y camiseta caqui, piolet y botas de montaña.",
+      "secreto": [
+        "Eres una impostora que ha asesinado a la desaparecida hija de Sir Roger. Has preparado el camino hacia la Mansión Watersdown consiguiendo primero el favor de ERA. Intentaste seducirla al descubrir que era activista por los derechos de la mujer, fingiste interesarte por la causa. ERA ha sido de lo más persuasiva por ti y como resultado, Sir Roger ha cambiado el testamento a tu favor. En el intento de hacerte pasar por Rogerina Astird, cambiaste tu aspecto incluyendo el color de los ojos, llevas lentes de contacto (que transforman tus ojos marrones en azules). De todas formas, tienes que estar constantemente en guardia. Sir Roger sospecha algo. La vida es peligrosa."
+      ]
     },
     {
       "ruta": "Allison",
       "nombre": "Dame Allison Bigh",
       "apodo": "«Ali»",
+      "tuImagen": [
+        "Escribes novelas de misterio y has conseguido gran popularidad y éxito desde que se publicó tu best-seller «El Frío Acuchillar del Acero» hace dos años. Desde que apareció esa novela, tu estilo ha sido elogiado por el sorprendente realismo en la caracterización de la mente criminal. Estás invitada a la Mansión Watersdown para recopilar material y ambientación para tu nuevo libro, una continuación de «El Frío Acuchillar del Acero». Sir Roger es un gran admirador de tu obra.",
+        "Tus amigos más íntimos te conocen por «Ali»."
+      ],
       "bio": "Escritora de novelas de misterio inglesas, la Ilustrísima Dama Bigh ha disfrutado de gran popularidad y éxito desde su best-seller «El frío Acuchillar del Acero», publicado hace 2 años. A raíz de esta novela, se ha alabado su estilo por su vívida caracterización de la mente criminal. La Ilustrísima Dama es huésped en Watersdown para reunir material y ambiente para su último libro. Sir Roger es un gran admirador de sus obras. La Ilustrísima Dama Bigh es llamada «Ali» por sus íntimos.",
-      "vestuario": "Un vestido largo, ni demasiado sobrio ni demasiado recatado."
+      "vestuario": "Un vestido largo, ni demasiado sobrio ni demasiado recatado.",
+      "secreto": [
+        "Eres una asesina empedernida. Cometiste un asesinato que más tarde se convirtió en el argumento de tu best-seller. El asesinato tuvo lugar en la campiña Inglesa no muy lejos de Watersdown, donde estás invitada. La policía nunca resolvió el asesinato pero tú crees que Sir Roger sospecha que tú lo hiciste.",
+        "Eres además, una gran hipnotizadora, aunque este hecho no es del dominio público."
+      ]
     },
     {
       "ruta": "Prosperina",
       "nombre": "Prosperina Alvina Bates",
       "apodo": "«Pro»",
+      "tuImagen": [
+        "Eres la abogada de Sir Roger, su asesora personal y su compañera de golf. Eres una gran jugadora de golf y tu actividad profesional consiste principalmente en llevar los negocios de Sir Roger. Eres directiva en el Consejo de Bebidas Watersdown. Tu casa de campo, Whole-In-Won, con su carretera de acceso privada, linda con las posesiones Watersdown.",
+        "Tus amigos te llaman «Pro»."
+      ],
       "bio": "Abogada de Sir Roger es, además, su asesora personal y compañera de golf, deporte del que es una gran jugadora; se dedica a asuntos de negocios de Sir Roger. Es directora del Comité de Bebidas de Watersdown, Ltd., y es una huésped asidua de la Mansión Watersdown. La casa de campo de la abogada Bates, Whole-In-Won, tiene acceso privado y es colindante con la propiedad de los Watersdown. Sus amigos la llaman «Pro».",
-      "vestuario": "Traje sastre oscuro y portafolios, o atuendo de golf."
+      "vestuario": "Traje sastre oscuro y portafolios, o atuendo de golf.",
+      "secreto": [
+        "Eres la primera hija ilegítima de Sir Roger y en su testamento te nombraba su heredera hasta la llegada de Rogerina Astird. A pesar de tus protestas, Sir Roger ha cambiado su testamento dejándoselo todo a Rogerina Astird. Has estado malversando los fondos de Bebidas Watersdown, Ltd. porque necesitas dinero para pagar deudas de juego. Puede ser que Sir Roger haya descubierto tus fechorías ya que recientemente te trata con frialdad. Ha concertado una reunión con sus auditores para la próxima semana."
+      ]
     },
     {
       "ruta": "Donna",
       "nombre": "Donna J. Brooks",
       "apodo": "«Donny»",
+      "tuImagen": [
+        "Eres banquera en la Ciudad y sobrina de Sir Roger. A tus 35 años has obtenido ya un gran éxito profesional y gozas de una excelente reputación como estratega financiera. Hace poco apareció un artículo sobre ti en el «Banker's Fashion News», noticias de Banca, y estás desarrollando un proyecto de Sociedades Internacionales que pueden ser definitivas para tu carrera. Tú y tu esposa, Florence, llegasteis a la Mansión Watersdown el viernes por la noche para tener tiempo de discutir una propuesta de negocios con Sir Roger.",
+        "En la familia te conocen como Donny."
+      ],
       "bio": "Banquera de la ciudad y sobrina de Sir Roger. A sus 35 años Mrs. Brooks ha logrado un éxito notable y ha obtenido una reputación como brillante estratega financiera. Últimamente se han publicado algunos artículos sobre ella en el «Banker's Fashion News» (Actualidad Bancaria) y está creándose una amplia red de contactos internacionales muy interesantes para su carrera. En casa la llaman «Donny».",
-      "vestuario": "Traje sastre de ejecutiva de banca."
+      "vestuario": "Traje sastre de ejecutiva de banca.",
+      "secreto": [
+        "Tu éxito se debe enteramente a asociaciones y contactos de naturaleza deplorable. Tu mujer, Flo, no sabe nada de estas actividades. Necesitas fondos, dinero, desesperadamente y has intentado chantajear a Sir Roger para conseguirlos. A través de tus conexiones, te has enterado de que Sir Roger está envuelto en un asunto de pornografía e intentas utilizar esta información como arma para el chantaje. Sin embargo, te has encontrado con que Sir Roger ha conseguido información acerca de tus sospechosas conexiones y tratos, la cual podría arruinar tu carrera en la ciudad. Como resultado, te ha coaccionado a espiar para él los asuntos del padre de Flo, el Conde de Woo."
+      ]
     },
     {
       "ruta": "Florence",
       "nombre": "Florence Wing Brooks",
       "apodo": "«Flo»",
+      "tuImagen": [
+        "Eres la esposa de Donna J. Brooks y heredera de la fortuna del Conde de Woo y Lady Wing, ambos todavía con vida. Increíblemente bella, eras modelo hasta tu matrimonio con la dama de la alta sociedad Mrs. Brooks, y se te conocía como la chica de «Mirada Oriental». Desde tu boda, tú y tu esposa habéis viajado por todo el mundo. Irradias encanto y alegría.",
+        "Tus padres te llaman «FLO»."
+      ],
       "bio": "La esposa de Donna J. Brooks y la heredera de la fortuna del Conde y la Condesa Wing, ambos aún vivos. Florence es hermosísima y trabajó como modelo hasta entrar en la alta sociedad a través de su matrimonio con Mrs. Brooks; se le conocía como la chica de la «Sombra de Ojos del Lejano Oriente». Desde su matrimonio, ella y su esposa han viajado muchísimo. Florence desborda encanto y vivacidad. Sus padres la llaman «Flo».",
-      "vestuario": "Vestido largo a la última moda o un kimono."
+      "vestuario": "Vestido largo a la última moda o un kimono.",
+      "secreto": [
+        "Eres la hija ilegítima de Lady Watersdown, la maltratada mujer de Sir Roger, y Woo Wing, el famoso Casanova Oriental. Tu esposa, Donny, desconoce que eres la hija de Lady Watersdown. A tu padre se le concedió el título de Conde después de la guerra, como resultado de sus heroicidades, pero ahora le amenaza Sir Roger con revelar sus actuaciones como asesino terrorista para un grupo político radical. Esta revelación supondría perder fama y fortuna, sin mencionar la espléndida herencia. Nunca perdonaste a Sir Roger por maltratar a tu madre y ahora estás dispuesta a evitar que arruine a tu padre. Tú y tu esposa llegasteis el viernes por la tarde."
+      ]
     },
     {
       "ruta": "Eiaguielle",
       "nombre": "Eiaguielle R. Aminmund",
       "apodo": "«E» o «ERA»",
+      "tuImagen": [
+        "Tú eres la secretaria privada de Sir Roger; eres una persona con mucho talento y ambición. Desde la muerte de Lady Watersdown hace 4 años, has actuado muy a menudo como anfitriona en fiestas de fin de semana en la Mansión Watersdown.",
+        "Puesto que tu nombre es tan largo, tus amigos te llaman «E»."
+      ],
       "bio": "Secretaria privada de Sir Roger, es una persona de gran talento y ambición. Desde la muerte de Lady Watersdown cuatro años atrás, ha actuado frecuentemente como anfitriona en las fiestas de la Mansión Watersdown. Está a cargo de prácticamente todos los asuntos de la casa. Como su nombre es tan largo, sus amigos la llaman «E».",
-      "vestuario": "Vestido con cuello y mangas de encaje, gafas de pasta y un cuaderno para tomar notas."
+      "vestuario": "Vestido con cuello y mangas de encaje, gafas de pasta y un cuaderno para tomar notas.",
+      "secreto": [
+        "Como activista del movimiento feminista te han horrorizado el machismo y la maldad que Sir Roger y sus acompañantes demuestran hacia las mujeres. Al introducirte en los negocios, has intentado conocer hechos acerca de Sir Roger que pudieron ser utilizados contra tí. No obstante, tanto te espantaba su actitud machista que decidiste librar al mundo de su maldad. Pero antes de poner tu plan en acción te encontraste con Rogerina S. B. Astird en un mitin feminista y te diste cuenta de que era la hija, hace tiempo perdida, de Sir Roger. Rogerina se mostró bastante favorable hacia ti y tu movimiento, la Sociedad Británica por la Igualdad de Derechos. Has conseguido traerla de nuevo a la Mansión Watersdown y, con algo de persuasión, hacer que Sir Roger cambie su testamento. La joven Rog te ha prometido una importante donación de dinero que obtenga de Sir Roger. Sin embargo, últimamente Sir Roger ha mostrado señales de duda acerca de la identidad de su hija reencontrada."
+      ]
     }
   ]
 }

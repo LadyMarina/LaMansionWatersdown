@@ -128,6 +128,23 @@ h1,h2,h3{font-family:var(--serif-titulo); font-weight:700; letter-spacing:.5px; 
 .dossier .played-by{font-family:var(--serif-sub); font-size:1.02rem; color:var(--crema-tenue); margin:.5rem 0 0; letter-spacing:.04em}
 .dossier .played-by b{font-family:var(--serif-titulo); color:var(--oro-claro); font-weight:600}
 .dossier .bio{margin-top:1rem; font-size:1.08rem}
+/* Información oculta (La Sórdida Realidad) — tras botón con ojo */
+.dossier .secret{margin-top:1.4rem; border-top:1px solid rgba(201,162,75,.25); padding-top:1.1rem}
+.dossier .secret summary{list-style:none; cursor:pointer; display:inline-flex; align-items:center; gap:.55rem;
+  font-family:var(--serif-sub); font-size:1.02rem; letter-spacing:.04em; color:var(--oro-claro);
+  padding:.5rem .95rem; border:1px solid var(--oro); border-radius:999px;
+  background:linear-gradient(180deg, rgba(201,162,75,.14), rgba(201,162,75,.05)); transition:.2s}
+.dossier .secret summary::-webkit-details-marker{display:none}
+.dossier .secret summary:hover{background:linear-gradient(180deg, rgba(201,162,75,.24), rgba(201,162,75,.1))}
+.dossier .secret .eye{font-size:1.15rem; line-height:1}
+.dossier .secret[open] summary .secret-label::after{content:" (ocultar)"; color:var(--crema-tenue)}
+.dossier .secret-inner{margin-top:1rem; padding:1rem 1.1rem; border-radius:8px;
+  border:1px solid rgba(168,36,47,.45);
+  background:linear-gradient(180deg, rgba(109,20,32,.35), rgba(58,13,27,.25))}
+.dossier .secret-inner p{margin:.7rem 0; font-size:1.06rem}
+.dossier .secret-inner p:first-child{margin-top:0}
+.dossier .secret-warn{font-family:var(--serif-sub); font-style:italic; letter-spacing:.03em;
+  color:#e7a6ad; text-transform:none; font-size:.98rem}
 
 /* Vestuario */
 .wardrobe .mine{font-size:1.06rem}
@@ -268,7 +285,18 @@ body.opening #veil{opacity:1}
   <p class="section-eyebrow">Ficha del personaje</p>
   <h2>Miranda T. Shetes</h2>
   <div class="alias">«Randy»</div>
-  <p class="bio">Joven y guapa actriz americana, famosa por su talento y perfil clásico. Acaba de interpretar a Miss Hardcastle en «Sucumbió a la Seducción», de Oliver Goldmint. Este triunfo cinematográfico la ha dado a conocer al público y ha supuesto el lanzamiento de su carrera dramática. Para todos sus amigos es «Randy».</p>
+  <p class="bio">Eres una bella actriz americana por tu talento y tu perfil clásico. Acabas de protagonizar a Miss Hardcastle en «She Bends Over to Conquer», de Oliver Goldmint. Este triunfo cinematográfico te ha dado a conocer al público y ha supuesto el lanzamiento de tu carrera dramática.</p>
+  <p class="bio">Para los amigos eres «Randy».</p>
+  <details class="secret">
+    <summary>
+      <span class="eye" aria-hidden="true">&#128065;</span>
+      <span class="secret-label">Información oculta — solo para ti</span>
+    </summary>
+    <div class="secret-inner">
+      <p class="secret-warn">No facilites esta información a las demás invitadas.</p>
+      <p>Secretamente eres una Reina del Porno cuyo éxito se basa en tu relación amorosa con los que financian tus películas. Sir Roger financió varias de tus producciones pornográficas y llegaste a conocer sus encantos. De todas formas, ahora que has demostrado tus cualidades como actriz y has tenido una oferta para protagonizar una nueva producción dramática, Sir Roger te ha amenazado con dar a conocer tu película pornográfica, que se titulaba «Labios Calientes».</p>
+    </div>
+  </details>
 </section>
     <section class="panel wardrobe" aria-label="Sugerencia de vestuario">
   <p class="section-eyebrow">Sugerencia de vestuario</p>

@@ -128,6 +128,23 @@ h1,h2,h3{font-family:var(--serif-titulo); font-weight:700; letter-spacing:.5px; 
 .dossier .played-by{font-family:var(--serif-sub); font-size:1.02rem; color:var(--crema-tenue); margin:.5rem 0 0; letter-spacing:.04em}
 .dossier .played-by b{font-family:var(--serif-titulo); color:var(--oro-claro); font-weight:600}
 .dossier .bio{margin-top:1rem; font-size:1.08rem}
+/* Información oculta (La Sórdida Realidad) — tras botón con ojo */
+.dossier .secret{margin-top:1.4rem; border-top:1px solid rgba(201,162,75,.25); padding-top:1.1rem}
+.dossier .secret summary{list-style:none; cursor:pointer; display:inline-flex; align-items:center; gap:.55rem;
+  font-family:var(--serif-sub); font-size:1.02rem; letter-spacing:.04em; color:var(--oro-claro);
+  padding:.5rem .95rem; border:1px solid var(--oro); border-radius:999px;
+  background:linear-gradient(180deg, rgba(201,162,75,.14), rgba(201,162,75,.05)); transition:.2s}
+.dossier .secret summary::-webkit-details-marker{display:none}
+.dossier .secret summary:hover{background:linear-gradient(180deg, rgba(201,162,75,.24), rgba(201,162,75,.1))}
+.dossier .secret .eye{font-size:1.15rem; line-height:1}
+.dossier .secret[open] summary .secret-label::after{content:" (ocultar)"; color:var(--crema-tenue)}
+.dossier .secret-inner{margin-top:1rem; padding:1rem 1.1rem; border-radius:8px;
+  border:1px solid rgba(168,36,47,.45);
+  background:linear-gradient(180deg, rgba(109,20,32,.35), rgba(58,13,27,.25))}
+.dossier .secret-inner p{margin:.7rem 0; font-size:1.06rem}
+.dossier .secret-inner p:first-child{margin-top:0}
+.dossier .secret-warn{font-family:var(--serif-sub); font-style:italic; letter-spacing:.03em;
+  color:#e7a6ad; text-transform:none; font-size:.98rem}
 
 /* Vestuario */
 .wardrobe .mine{font-size:1.06rem}
@@ -268,7 +285,19 @@ body.opening #veil{opacity:1}
   <p class="section-eyebrow">Ficha del personaje</p>
   <h2>Dra. Mallory K. T. Praktiss</h2>
   <div class="alias">«Mal»</div>
-  <p class="bio">Médica en Harley Street, la Dra. Praktiss posee una notable fortuna y es la médica privada de Sir Roger. Normalmente, es pareja de bridge de Sir Roger en el Gribbley, el selecto club de cartas de Londres al que ambos pertenecen. Es bastante bien parecida y una profesional muy estimada con reputación de ser la «Médica de los Ricos». No está casada, pero tiene muchas amistades femeninas. Sus amigos la llaman «Mal».</p>
+  <p class="bio">Eres médico en la calle Harley y disfrutas de una posición económica muy acomodada. Además de médico personal de Sir Roger, eres con frecuencia su compañera de bridge en El Gribbley, el exclusivo club de cartas de Londres del que ambos sois socios.</p>
+  <p class="bio">Eres bien parecida y una excelente profesional con muy buena reputación como &quot;Médica de Ricos&quot;. Nunca has estado casada pero tienes muchas amigas.</p>
+  <p class="bio">Tus amigos te llaman Mal.</p>
+  <details class="secret">
+    <summary>
+      <span class="eye" aria-hidden="true">&#128065;</span>
+      <span class="secret-label">Información oculta — solo para ti</span>
+    </summary>
+    <div class="secret-inner">
+      <p class="secret-warn">No facilites esta información a las demás invitadas.</p>
+      <p>Colaboraste a ocasionar la muerte «accidental» de Lady Watersdown, recetándole medicamentos profesionalmente pero después de una pelea de amantes, ya que ella quería confesar a Sir Roger su affair para poder divorciarse de él y casarse contigo. La muerte fue consecuencia de una sobredosis de somníferos. De hecho, disolviste un gran número de pastillas en el vaso de agua de Lady Watersdown antes de marcharte y ella, al tomarse una pastilla y beberse el agua, se autoadministró la sobredosis. Siempre has temido que Sir Roger sospechase de ti, en primer lugar por tener un affair con su mujer, y en segundo lugar, por administrarle la sobredosis, aunque la Investigación del Médico Forense indicó que tú estabas en El Gribbley con Sir Roger cuando Lady Watersdown se tomó las pastillas.</p>
+    </div>
+  </details>
 </section>
     <section class="panel wardrobe" aria-label="Sugerencia de vestuario">
   <p class="section-eyebrow">Sugerencia de vestuario</p>
